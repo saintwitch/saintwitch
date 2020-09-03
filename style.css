@@ -1,0 +1,88 @@
+body {
+    /*background: #292929;
+    background: rgb(140,34,195);*/
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.centre{
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    height: 200px;
+    width: 200px;   
+    border-radius: 200px;
+    background-image: url("Capture.png");
+    background-size: cover;
+}
+
+.links {
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 30px;
+    height: 400px;
+    width: 60%;
+}
+
+.linkBox {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.3em;
+    color: black;
+    transition: 0.3s;
+    border: 1px #39ff14 solid;
+}
+.linkBox a {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 30px;
+    flex-direction: column;
+    display: block;
+}
+.linkBox:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px black solid;
+    color: white;
+    cursor: pointer;
+}
+@keyframes linkAnimation {
+    from {background-color: black;}
+    to {background-color: white;}
+}
+
+
+@media (max-width: 1024px){
+    .logo {
+        position: relative;
+        top: 30px;
+        height: 200px;
+        width: 300px;   
+        border-radius: 200px;
+        background-image: url("Capture.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .linkBox {
+        position: relative;
+        height: 60px;
+        width: 100%;
+        background-color: #39ff14;
+        text-align: center;
+        line-height: 60px;
+        font-size: 2em;
+        border-radius: 10px;
+        color: black;
+        transition: 0.3s;
+        border: 1px #39ff14 solid;
+    }
+}
+
