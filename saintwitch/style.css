@@ -1,0 +1,55 @@
+body {
+    background: #292929;
+}
+
+.centre{
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    height: 300px;
+    width: 300px;   
+    border-radius: 200px;
+    background-image: url("Capture.png");
+    background-size: cover;
+}
+
+.links {
+    padding-top: 30px;
+    position: relative;
+    top: 30px;
+    height: 600px;
+    width: 60%;
+    
+}
+
+.linkBox {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background-color: #39ff14;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2em;
+    border-radius: 10px;
+    color: black;
+    transition: 0.3s;
+    border: 1px #39ff14 solid;
+}
+.linkBox a {
+    color: #f9f9f9;
+    text-decoration: none;
+
+}
+.linkBox:hover {
+    background-color: white;
+    border: 1px black solid;
+    color: black;
+    cursor: pointer;
+}
+@keyframes linkAnimation {
+    from {background-color: black;}
+    to {background-color: white;}
+}
